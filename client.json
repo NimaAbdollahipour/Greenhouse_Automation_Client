@@ -1,8 +1,7 @@
 {
     "plant":{
-        "id":1,
-        "min_term":10,
-        "max_term":30,
+        "min_temp":10,
+        "max_temp":30,
         "moisture":1,
         "changed":false
     },
@@ -14,7 +13,8 @@
     },
     "user":{
         "username":"",
-        "password":""
+        "password":"",
+        "token":""
     },
     "data":{
         "tank":true,
@@ -24,8 +24,6 @@
         "last_sent":""
     },
     "raw_data":{
-        "last_checked":"",
-        "number_of_data":0,
         "light":[],
         "temperature":[]
     },
